@@ -1,0 +1,14 @@
+{
+  "name": "queue-order",
+  "version": "0.1.0",
+  "description": "Ordering primitives for a work queue a person reads top-down: age banding, state resolution, a list that holds still while it is worked, and a poll schedule that will not synchronise.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["queue", "ordering", "scheduling", "polling", "jitter", "ui-state"],
+  "license": "MIT",
+  "dependencies": {},
+  "engines": { "node": ">=18" }
+}
